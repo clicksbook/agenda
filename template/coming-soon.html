@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Quantum Able Bootstrap 4 Admin Dashboard Template</title>
+	<!-- HTML5 Shim and Respond.js IE9 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	
+	<meta name="keywords"
+		  content=", Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+	<meta name="author" content="Phoenixcoded">
+
+	<!-- Favicon icon -->
+	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+	<!-- Google font-->
+   <link href="https://fonts.googleapis.com/css?family=Mada:400,500,600" rel="stylesheet">
+
+	<!-- iconfont -->
+	<link rel="stylesheet" type="text/css" href="assets/icon/icofont/css/icofont.css">
+
+	<!-- simple line icon -->
+	<link rel="stylesheet" type="text/css" href="assets/icon/simple-line-icons/css/simple-line-icons.css">
+
+	<!-- Required Fremwork -->
+	<link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+	<!-- Style.css -->
+	<!-- Style.css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+    <!-- Responsive.css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+	<!--color css-->
+	<link rel="stylesheet" type="text/css" href="assets/css/color/color-1.min.css" id="color"/>
+
+</head>
+<body>
+<section id="come-soon" class="coming">
+	<!-- Container-fluid starts -->
+	<div class="container-fluid text-center">
+		<div class="row comming-soon d-inline-block">
+			<h1 class="m-b-70">COMING SOON</h1>
+
+			<p class="m-b-50">We are working hard to improve our website and we’ll ready to launch after</p>
+			<div class="counter m-b-70">
+				<h2 class="yourCountdownContainer" id="Counterdemo"></h2>
+			</div>
+			<!-- end of counter -->
+			<div class="md-float-material d-flex counter-email">
+
+				<div class="col-md-10 col-sm-8 col-sm-12">
+					<div class="md-input-wrapper md-input-primary txtemail-coming">
+						<input type="text" class="md-form-control txt-white">
+						<label class="txt-white">Enter Your Email Address</label>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 col-sm-12">
+					<button type="button" class="btn btn-primary btn-md waves-effect waves-light">SUBMIT
+						<i class="icofont icofont-paper-plane"></i>
+					</button>
+				</div>
+			</div>
+			<div class="coming-social col-sm-12">
+				<a href="#" class="icofont icofont-social-facebook"></a>
+				<a href="#" class="icofont icofont-social-twitter"></a>
+				<a href="#" class="icofont icofont-social-google-plus"></a>
+				<a href="#" class="icofont icofont-social-pinterest"></a>
+				<a href="#" class="icofont icofont-brand-linkedin"></a>
+			</div>
+		</div>
+	</div>
+	<!-- end of container-fluid -->
+</section>
+
+<!-- Warning Section Starts -->
+<!-- Older IE warning message -->
+<!--[if lt IE 9]>
+<div class="ie-warning">
+	<h1>Warning!!</h1>
+	<p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+	<div class="iew-container">
+		<ul class="iew-download">
+			<li>
+				<a href="http://www.google.com/chrome/">
+					<img src="assets/images/browser/chrome.png" alt="Chrome">
+					<div>Chrome</div>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.mozilla.org/en-US/firefox/new/">
+					<img src="assets/images/browser/firefox.png" alt="Firefox">
+					<div>Firefox</div>
+				</a>
+			</li>
+			<li>
+				<a href="http://www.opera.com">
+					<img src="assets/images/browser/opera.png" alt="Opera">
+					<div>Opera</div>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.apple.com/safari/">
+					<img src="assets/images/browser/safari.png" alt="Safari">
+					<div>Safari</div>
+				</a>
+			</li>
+			<li>
+				<a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+					<img src="assets/images/browser/ie.png" alt="">
+					<div>IE (9 & above)</div>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<p>Sorry for the inconvenience!</p>
+</div>
+<![endif]-->
+<!-- Warning Section Ends -->
+
+<!-- Required Jqurey -->
+<script src="../bower_components/Jquery/dist/jquery.min.js"></script>
+<script src="../bower_components/jquery-ui/jquery-ui.min.js"></script>
+<script src="../bower_components/tether/dist/js/tether.min.js"></script>
+
+<!-- Required Fremwork -->
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<!-- waves effects.js -->
+<script src="../bower_components/Waves/dist/waves.min.js"></script>
+
+
+
+<!-- custom js -->
+<script type="text/javascript" src="assets/pages/countdown.js"></script>
+<script type="text/javascript" src="assets/pages/elements.js"></script>
+
+<script>
+	function setHeight() {
+		var $window = $(window);
+		var windowHeight = $(window).innerHeight();
+		if ($window.width() >= 320) {
+			$('#come-soon').css('min-height', windowHeight);
+		}
+		else{
+			$('#come-soon').removeAttr('min-height', windowHeight);
+		}
+	};
+	setHeight();
+
+	$(window).resize(function() {
+		setHeight();
+	});
+
+
+/* Countdow  Scritp Starts */
+	// Set the date we're counting down to
+	var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
+	// Update the count down every 1 second
+	var x = setInterval(function() {
+
+	  // Get todays date and time
+	  var now = new Date().getTime();
+
+	  // Find the distance between now and the count down date
+	  var distance = countDownDate - now;
+
+	  // Time calculations for days, hours, minutes and seconds
+	  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+	  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+	  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+	  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+	  // Output the result in an element with id="demo"
+	  document.getElementById("Counterdemo").innerHTML ='<div class="row"><div class="col-sm-3"><h2 class="f-90 f-w-400 counter-text">'+
+	  													days + '</h2><p class="f-24 f-w-400"> Days</p></div>' +
+														'<div class="col-sm-3"><h2 class="f-90 f-w-400 counter-text">' +
+	  													hours + '</h2><p class="f-24 f-w-400"> Hours</p></div>' +
+														'<div class="col-sm-3"><h2 class="f-90 f-w-400 counter-text">' +
+														minutes + '</h2><p class="f-24 f-w-400"> Minutes</p></div>' +
+														'<div class="col-sm-3"><h2 class="f-90 f-w-400 counter-text">' +
+														seconds + '</h2><p class="f-24 f-w-400"> Seconds</p></div></div>';
+
+	  // If the count down is over, write some text
+	  if (distance < 0) {
+	    clearInterval(x);
+	    document.getElementById("Counterdemo").innerHTML = "EXPIRED";
+	  }
+	}, 1000);
+	/* Countdow  Scritp Ends */
+</script>
+
+<!--color option js-->
+
+</body>
+</html>
