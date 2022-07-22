@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Agenda | Registro</title>
+
+	 <!-- HTML5 Shim and Respond.js IE9 support of HTML5 elements and media queries -->
+   	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  		<!--[if lt IE 9]>
+  			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  			<![endif]-->
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	
+	<meta name="keywords"
+	content=", Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+	<meta name="author" content="Phoenixcoded">
+
+	<!-- Favicon icon -->
+	<link rel="shortcut icon" href="<?php echo ROUTE;?>assets/images/favicon.png" type="image/x-icon">
+	<link rel="icon" href="<?php echo ROUTE;?>assets/images/favicon.ico" type="image/x-icon">
+
+	<!-- Google font-->
+   <link href="https://fonts.googleapis.com/css?family=Mada:400,500,600" rel="stylesheet">
+
+	<!--ico Fonts-->
+	<link rel="stylesheet" type="text/css" href="<?php echo ROUTE;?>assets/icon/icofont/css/icofont.css">
+	<!-- Required Fremwork -->
+	<link rel="stylesheet" type="text/css" href="<?php echo ROUTE;?>bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+	<!-- waves css -->
+	<link rel="stylesheet" type="text/css" href="<?php echo ROUTE;?>bower_components/Waves/dist/waves.min.css">
+
+	<!-- Style.css -->
+	<link rel="stylesheet" type="text/css" href="<?php echo ROUTE;?>assets/css/main.css">
+
+	<!-- Responsive.css-->
+	<link rel="stylesheet" type="text/css" href="<?php echo ROUTE;?>assets/css/responsive.css">
+
+	<!--color css-->
+    <link rel="stylesheet" type="text/css" href="<?php echo ROUTE;?>assets/css/color/light-dark.css" id="color"/>
+
+</head>
+<body>
+	<section class="login common-img-bg">
+		<!-- Container-fluid starts -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="login-card card-block bg-white ml-auto mr-auto">
+						<form class="md-float-material" action="index.html">
+							<div class="text-center">
+								<img src="<?php echo ROUTE;?>assets/images/logo-white.png" alt="">
+							</div>
+							<h3 class="text-center txt-primary">Create an account </h3>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="md-input-wrapper">
+										<input type="text" class="md-form-control" value="Richi">
+										<label>First Name</label>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="md-input-wrapper">
+										<input type="text" class="md-form-control" value="Rich">
+										<label>Last Name</label>
+									</div>
+								</div>
+							</div>
+							<div class="md-input-wrapper">
+								<input type="email" class="md-form-control" value="demo@demo.com">
+								<label>Email Address</label>
+							</div>
+							<div class="md-input-wrapper">
+								<input type="password" class="md-form-control" value="demodemo">
+								<label>Password</label>
+							</div>
+							<div class="md-input-wrapper">
+								<input type="password" class="md-form-control" value="demodemo">
+								<label>Confirm Password</label>
+							</div>
+
+							<div class="rkmd-checkbox checkbox-rotate checkbox-ripple b-none m-b-20">
+								<label class="input-checkbox checkbox-primary">
+									<input type="checkbox" id="checkbox">
+									<span class="checkbox"></span>
+								</label>
+								<div class="captions">Remember Me</div>
+							</div>
+							<div class="col-sm-10 offset-sm-1">
+								<button type="submit" class="btn btn-primary btn-md btn-block waves-effect waves-light m-b-20">Sign up
+								</button>
+							</div>
+							<div class="row">
+								<div class="col-sm-12 text-center">
+									<span class="text-muted">Already have an account?</span>
+									<a href="login" class="f-w-600 p-l-5"> Sign In Here</a>
+
+								</div>
+							</div>
+						</form>
+						<!-- end of form -->
+					</div>
+					<!-- end of login-card -->
+				</div>
+				<!-- end of col-sm-12 -->
+			</div>
+				<!-- end of row-->
+			</div>
+			<!-- end of container-fluid -->
+	</section>
+
+	<!-- Warning Section Starts -->
+<!-- Older IE warning message -->
+  <!--[if lt IE 9]>
+      <div class="ie-warning">
+          <h1>Warning!!</h1>
+          <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+          <div class="iew-container">
+              <ul class="iew-download">
+                  <li>
+                      <a href="http://www.google.com/chrome/">
+                          <img src="<?php echo ROUTE;?>assets/images/browser/chrome.png" alt="Chrome">
+                          <div>Chrome</div>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://www.mozilla.org/en-US/firefox/new/">
+                          <img src="<?php echo ROUTE;?>assets/images/browser/firefox.png" alt="Firefox">
+                          <div>Firefox</div>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="http://www.opera.com">
+                          <img src="<?php echo ROUTE;?>assets/images/browser/opera.png" alt="Opera">
+                          <div>Opera</div>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="https://www.apple.com/safari/">
+                          <img src="<?php echo ROUTE;?>assets/images/browser/safari.png" alt="Safari">
+                          <div>Safari</div>
+                      </a>
+                  </li>
+                  <li>
+                      <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                          <img src="<?php echo ROUTE;?>assets/images/browser/ie.png" alt="">
+                          <div>IE (9 & above)</div>
+                      </a>
+                  </li>
+              </ul>
+          </div>
+          <p>Sorry for the inconvenience!</p>
+      </div>
+      <![endif]-->
+      <!-- Warning Section Ends -->
+
+
+	<!-- Required Jqurey -->
+	<script src="<?php echo ROUTE;?>bower_components/Jquery/dist/jquery.min.js"></script>
+	<script src="<?php echo ROUTE;?>bower_components/jquery-ui/jquery-ui.min.js"></script>
+	<!-- tether.js -->
+	<script src="<?php echo ROUTE;?>bower_components/tether/dist/js/tether.min.js"></script>
+	<!-- waves effects.js -->
+	<script src="<?php echo ROUTE;?>bower_components/Waves/dist/waves.min.js"></script>
+	<!-- Required Framework -->
+	<script src="<?php echo ROUTE;?>bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<!--text js-->
+	<script type="text/javascript" src="<?php echo ROUTE;?>assets/pages/elements.js"></script>
+
+
+</body>
+</html>

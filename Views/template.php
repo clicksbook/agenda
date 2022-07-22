@@ -58,19 +58,28 @@
     </div>
     <div class="wrapper">
         <!-- Navbar-->
-        <?php include("Views/modulos/include/header.php");?>
+        <?php include("Views/modulos/include/header.php"); ?>
         <!-- Side-Nav-->
-        <?php include("Views/modulos/include/nav.php");?>
+        <?php include("Views/modulos/include/nav.php"); ?>
         <!-- Sidebar chat start -->
-        <?php include("Views/modulos/include/chat.php");?>
+        <?php include("Views/modulos/include/chat.php"); ?>
         <!-- Sidebar chat end-->
-        
+
         <!-- Contenido-->
+
+        <?php
+        $url = new ctrLinks();
+        $resultURl = $url->getLinks(GET);
+        if(!empty($resultURl["route"])){
+            include($resultURl["route"]);
+        }else{
+            include("Views/modulos/error.php"); 
+        }
         
-        <?php 
-        
+    
+
         //include("Views/modulos/dashboard.php");
-        
+
         ?>
         <!-- FIN Contenido-->
 
